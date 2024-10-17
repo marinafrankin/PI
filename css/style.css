@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    color:/*Ainda precisa ser definido as cores*/
+}
+
+.dark-mode{
+    --primary-color: ;
+    --secondary-color: ;
+    --text-color: #fff;
+    --background-color: #000000;
+}
+
+h1{
+    font-size: bold;
+    margin-bottom: 20px;
+    text-align: left;
+    text-align: center;
+    margin: 25px 0 0 0;
+    color: #000000;/*Decidir cor ainda*/
+}
+
+.menu{
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 90px;
+    padding-top: 15px;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-weight: 900;
+    transition: 0.5s;
+    border:10px /*Decidir a cor ainda*/;
+    background: /*Definir a cor ainda*/;
+    border-radius: 20px;
+}
+
+.menu li a:hover{ /*Aplica "HOUVER" quando o mause passa por cima*/
+    background: #000000 /*Decidir a cor ainda*/;
+    color: /*Decidir a cor ainda*/;
+    transition: 0.5s;
+    border-radius: 70px;
+    padding: 18px;
+  }
+
+.container{
+    margin: 0 auto;
+    padding: 0 20%;
+    height: 100%;
+    width: 100%;
+}
+
+.card{
+    padding: 15px;
+    border-radius: 10px;
+    border: 0.5px solid /*Definir cor ainda*/;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.card-img{}
+
+.badge{
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.badge + .badge{
+    margin-left: 10px;
+    /*só se usa o left quando se tem outro badge*/
+}
